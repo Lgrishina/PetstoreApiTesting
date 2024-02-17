@@ -3,7 +3,7 @@
 
 **EN** This is a learning project demonstrating using Rest Asuured for API testing of https://petstore.swagger.io service.
 
-* JAVA
+* Java
 * REST Assured
 * JUnit5
 * Maven
