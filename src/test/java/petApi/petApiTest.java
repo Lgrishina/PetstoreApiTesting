@@ -172,6 +172,7 @@ public class petApiTest {
         Assertions.assertEquals(1213L, changedPetData.getId());
         Assertions.assertEquals("Tim", changedPetData.getName());
         Assertions.assertEquals("sold", changedPetData.getStatus());
-        Assertions.assertEquals("cats", changedPetData.getCategory().getName());
+       // в асерте на проверку category допущена ошибка, чтобы тест упал
+        Assertions.assertEquals("cat", changedPetData.getCategory().getName());
     }
 }
